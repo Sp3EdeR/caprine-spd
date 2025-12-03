@@ -21,8 +21,8 @@ async function withMenu(
 	menuButtonElement.click();
 
 	// Wait for the menu to close before removing the 'hide-dropdowns' class
-	await elementReady('.x78zum5.xdt5ytf.x1n2onr6.xat3117.xxzkxad > div:nth-child(2) > div', {stopOnDomReady: false});
-	const menuLayer = document.querySelector('.x78zum5.xdt5ytf.x1n2onr6.xat3117.xxzkxad > div:nth-child(2) > div');
+	await elementReady(selectors.menuLayer, {stopOnDomReady: false});
+	const menuLayer = document.querySelector(selectors.menuLayer);
 
 	if (menuLayer) {
 		const observer = new MutationObserver(() => {

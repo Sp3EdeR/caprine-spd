@@ -18,8 +18,9 @@ export default {
 	viewsMenu: '.x9f619.x1n2onr6.x1ja2u2z.x78zum5.xdt5ytf.x2lah0s.x193iq5w.xdj266r',
 	selectedConversation: '[role=navigation] [role=grid] [role=row] [role=gridcell] [role=link][aria-current=page]',
 	// ! Very fragile selector (most likely cause of hidden dialog issue)
-	preferencesSelector: '.x1n2onr6.x1ja2u2z.x1afcbsf.x78zum5.xdt5ytf.x1a2a7pz.x6ikm8r.x10wlt62.x71s49j.x1jx94hy.x1g2kw80.xxadwq3.x16n5opg.x3hh19s.xl7ujzl.x1kl8bxo.xhkep3z.xb3b7hn.xwhkkir.x1n7qst7.x17omtbh:has(.x1l90r2v.x1swvt13.x1pi30zi)',
+	preferencesSelector: '.x1n2onr6.x1ja2u2z.x1afcbsf.x78zum5.xdt5ytf.x1a2a7pz.x6ikm8r.x10wlt62.x71s49j.x1jx94hy.x9n396y.x15o3w11.x1ojodb8.xogydr4.xul23gt.x1vmz7ll.x1zosaf.x1yyrj1m.xwhkkir.x1n7qst7.x17omtbh',
 	// TODO: Fix this selector for new design
 	messengerSoundsSelector: '._374d ._6bkz',
 	conversationMenuSelectorNewDesign: '[role=menu]',
+	menuLayer: '.x78zum5.xdt5ytf.x1n2onr6.xpvvgw5.xxzkxad > div:nth-child(2) > div',
 };
