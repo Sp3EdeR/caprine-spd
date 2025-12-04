@@ -31,7 +31,7 @@
 		"distclean": "del-cli ./dist && del-cli ./dist-js",
 		"burn": "rimraf package-lock.json",
 		"distLinux": "npm run lint && electron-builder -l",
-		"distWin": "npm run lint && electron-builder -w --x64 && electron-builder -w --ia32",
+		"distWin": "npm run lint && electron-builder -w --x64 && electron-builder -w --ia32 && electron-builder -w --arm64",
 		"distMac": "electron-builder -m --x64 --pd dist/mac && electron-builder -m --arm64 --pd dist/mac-arm64",
 		"release": "tsc && np --no-publish"
 	},
