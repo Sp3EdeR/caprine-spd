@@ -1,16 +1,15 @@
 {
-	"name": "caprine",
-	"appName": "caprine",
+	"name": "caprine-spd",
+	"appName": "caprine-spd",
 	"productName": "Caprine",
 	"version": "2.60.3",
 	"description": "Elegant Facebook Messenger desktop app - Legacy OS Builds",
 	"license": "MIT",
-	"copyright": "Copyright © 2024 Alex313031",
-	"repository": "https://github.com/Alex313031/caprine-ng",
+	"repository": "https://github.com/Sp3EdeR/caprine-spd",
 	"author": {
-		"name": "Alexander Frick",
-		"email": "alex313031@gmail.com",
-		"url": "https://thorium.rocks/win7"
+		"name": "Speeder",
+		"email": "ek.speeder@gmail.com",
+		"url": "https://sp3eder.github.io/"
 	},
 	"main": "dist-js",
 	"engines": {

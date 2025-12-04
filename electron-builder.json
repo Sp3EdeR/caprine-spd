@@ -9,8 +9,8 @@
     "static/Icon64.png",
     "static/icon.ico"
   ],
-  "appId": "com.alex313031.caprine",
-  "copyright": "Copyright © 2025 Alex313031",
+  "appId": "com.speeder.caprine",
+  "copyright": "Copyright © 2025 Speeder, Alex313031",
   "mac": {
     "category": "public.app-category.social-networking",
     "icon": "build/icon.icns",

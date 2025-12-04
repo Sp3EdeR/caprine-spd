@@ -738,15 +738,11 @@ Press Command/Ctrl+R in Caprine to see your changes.
 	const helpSubmenu: MenuItemConstructorOptions[] = [
 		openUrlMenuItem({
 			label: 'Website',
-			url: 'https://github.com/Alex313031/caprine-ng#readme',
+			url: 'https://github.com/Sp3EdeR/caprine-spd#readme',
 		}),
 		openUrlMenuItem({
 			label: 'Source Code',
-			url: 'https://github.com/Alex313031/caprine-ng',
-		}),
-		openUrlMenuItem({
-			label: 'Donate…',
-			url: 'https://github.com/Alex313031/caprine-ng?sponsor=1',
+			url: 'https://github.com/Sp3EdeR/caprine-spd',
 		}),
 		{
 			label: 'Report an Issue…',
@@ -760,8 +756,8 @@ Press Command/Ctrl+R in Caprine to see your changes.
 ${debugInfo()}`;
 
 				openNewGitHubIssue({
-					user: 'Alex313031',
-					repo: 'caprine-ng',
+					user: 'Sp3EdeR',
+					repo: 'caprine-spd',
 					body,
 				});
 			},
@@ -803,8 +799,8 @@ ${debugInfo()}`;
 		aboutMenuItem({
 			icon: is.linux || is.macos ? caprineIcon64Path : caprineWinIconPath,
 			copyright: 'Created by Sindre Sorhus',
-			text: 'Maintainers:\nAlex313031\nDušan Simić\nLefteris Garyfalakis\nMichael Quevillon\nNikolas Spiridakis',
-			website: 'https://github.com/Alex313031/caprine-ng#readme',
+			text: 'Maintainers:\nAlex313031\nDušan Simić\nLefteris Garyfalakis\nMichael Quevillon\nMichal Ruzicka\nNikolas Spiridakis\nSpeeder',
+			website: 'https://github.com/Sp3EdeR/caprine-spd#readme',
 		}),
 	);
 
